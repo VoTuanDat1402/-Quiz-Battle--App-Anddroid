@@ -1,0 +1,2 @@
+module demoquiz.app.main {
+}

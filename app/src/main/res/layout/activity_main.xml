@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#E8EAF6">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xin chào, Player!"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:textColor="#3F51B5"/>
+
+    <Button
+        android:id="@+id/btnSolo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="CHẾ ĐỘ CHƠI ĐƠN"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FF9800"/>
+
+    <Button
+        android:id="@+id/btnBattle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ĐỐI KHÁNG ONLINE 1V1"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#E91E63"/>
+
+    <Button
+        android:id="@+id/btnLeaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="BẢNG XẾP HẠNG TOÀN CẦU"
+        android:backgroundTint="#00BCD4"/>
+</LinearLayout>
