@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#ECEFF1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView android:id="@+id/tvPlayerMe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bạn" android:textStyle="bold"/>
+            <TextView android:id="@+id/tvScoreMe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Điểm: 0" android:textColor="#009688" android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+            <TextView android:id="@+id/tvPlayerOpponent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Đang chờ..." android:textStyle="bold"/>
+            <TextView android:id="@+id/tvScoreOpponent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Điểm: 0" android:textColor="#FF5722" android:textSize="16sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvBattleStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đang kết nối..."
+        android:gravity="center"
+        android:textColor="#757575"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:text="Khu vực hiển thị câu hỏi đối kháng Real-time" />
+</LinearLayout>
